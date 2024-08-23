@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_rounded_top_corners">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:src="@drawable/ic_user_icon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethan"
+                android:textSize="48dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Primium Plan"
+                android:textSize="16dp"
+                android:textColor="@color/light_orange"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/menuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal">
+
+    </View>
+
+    <FrameLayout
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <RelativeLayout
+            android:id="@+id/btnClearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_rounded_background"
+            android:backgroundTint="@color/phase_red">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:text="Clear all data"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+        <com.example.snoretracker.ui.CustomFrameLayout
+            android:id="@+id/btnClearFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onBtnStartClickHandler"/>
+
+    </FrameLayout>
+
+</LinearLayout>

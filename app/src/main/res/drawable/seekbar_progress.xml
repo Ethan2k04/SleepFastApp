@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景（无音量部分） -->
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#e0e0e0"/> <!-- 背景颜色 -->
+            <corners android:radius="2dp"/>
+            <size android:height="1dp"/> <!-- 胶囊的高度决定了粗细 -->
+        </shape>
+    </item>
+    <!-- 前景（有音量部分） -->
+    <item android:id="@android:id/progress">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#ffa500"/> <!-- 前景颜色 -->
+            <corners android:radius="2dp"/>
+            <size android:height="1dp"/> <!-- 胶囊的高度决定了粗细 -->
+        </shape>
+    </item>
+</layer-list>
