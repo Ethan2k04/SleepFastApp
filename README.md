@@ -1,4 +1,5 @@
 # Sleep Fast App
+## Your reliable sleep tracker
 
 ![ic_app_icon](https://github.com/user-attachments/assets/2e1a4b27-8a26-47a8-b981-458facf97ee3)
 
