@@ -6,7 +6,13 @@
 
 It is an android app (unfinished) that monitor user's sleep behaviour (such as snore) and envaluate their sleep quality
 
-**Currently finished:**
+**Currently Finished:**
 
+- Sleep alarm
 - Snore detection
 - Basic UI
+
+**To Be Done:**
+
+- Sleep quality analysis
+- Data visualization
