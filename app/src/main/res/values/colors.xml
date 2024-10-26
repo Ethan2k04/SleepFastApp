@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Theme color -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fg_grey">#FF2c2c2e</color>
+    <color name="fg_grey_transparent">#AA2c2c2e</color>
     <color name="bg_grey">#FF1c1c1e</color>
     <color name="light_grey">#FF99999b</color>
     <color name="dark_grey">#FF454547</color>
+    <color name="highlight_grey">#FFFFFFFF</color>
+    <color name="normal_grey">#FF99999b</color>
     <color name="light_orange">#FFfca315</color>
     <color name="dark_orange">#FF865200</color>
     <color name="tick_orange">#FFd7882b</color>
     <color name="tick_grey">#FF1d1d1f</color>
-    <color name="highlight_color">#FFFFFFFF</color>
-    <color name="normal_color">#FF99999b</color>
     <color name="light_green">#FF30cf57</color>
 
     <!-- Using material palette #500 -->
@@ -30,7 +32,7 @@
     <color name="background_red">#44ff7961</color>
     <color name="background_pink">#44ff6090</color>
     <color name="background_purple">#44d05ce3</color>
-    <color name="background_indigo">#44757de8</color>
+    <color name="background_indigo">#FF757de8</color>
     <color name="background_blue">#446ec6ff</color>
     <color name="background_cyan">#62efff</color>
     <color name="background_teal">#4452c7b8</color>

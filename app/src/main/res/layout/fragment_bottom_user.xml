@@ -64,12 +64,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
+                android:elevation="4dp"
                 android:text="Clear all data"
                 android:textColor="@color/white" />
 
         </RelativeLayout>
 
-        <com.example.snoretracker.ui.CustomFrameLayout
+        <com.example.sleepfast.ui.CustomFrameLayout
             android:id="@+id/btnClearFrame"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

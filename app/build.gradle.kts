@@ -5,16 +5,18 @@ plugins {
 }
 
 android {
-    namespace = "com.example.snoretracker"
+    namespace = "com.example.sleepfast"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.snoretracker"
+        applicationId = "com.example.sleepfast"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        renderscriptTargetApi = 19
+        renderscriptSupportModeEnabled = true
     }
 
     buildTypes {
@@ -47,6 +49,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("org.tensorflow:tensorflow-lite-task-audio:0.4.4")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+    implementation("com.github.Dimezis:BlurView:version-2.0.5")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
     val room_version = "2.6.1"
     implementation("androidx.room:room-runtime:$room_version")
     annotationProcessor("androidx.room:room-compiler:$room_version")

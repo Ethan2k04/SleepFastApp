@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_sleep"
+        android:icon="@drawable/ic_bottom_alarm_24dp"
+        android:title="Sleep" />
+
+    <item
+        android:id="@+id/action_insight"
+        android:icon="@drawable/ic_insights_24dp"
+        android:title="Insight" />
+
+    <item
+        android:id="@+id/action_gene"
+        android:icon="@drawable/ic_meditation_24dp"
+        android:title="Meditation" />
+
+    <item
+        android:id="@+id/action_user"
+        android:icon="@drawable/ic_person_pin_24dp"
+        android:title="User" />
+
+</menu>

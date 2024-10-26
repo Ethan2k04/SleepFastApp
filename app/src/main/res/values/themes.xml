@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SnoreTracker" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.SleepGene" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/bg_grey</item>
         <item name="android:navigationBarColor">@color/bg_grey</item>
     </style>
 
-    <style name="Theme.SnoreTracker" parent="Base.Theme.SnoreTracker" />
+    <style name="Theme.SleepGene" parent="Base.Theme.SleepGene" />
 </resources>
