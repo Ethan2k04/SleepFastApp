@@ -8,6 +8,10 @@
 
 It is an android app (unfinished) that monitor user's sleep behaviour (such as snore) and envaluate their sleep quality
 
+# Preview
+
+<img src="https://github.com/user-attachments/assets/c08b8215-82d7-4e5d-af9c-607efb2c76cf" alt="ic_app_icon" width="200" />
+
 # Progress
 
 **Currently Finished:**
